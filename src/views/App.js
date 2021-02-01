@@ -1,7 +1,12 @@
 import React from 'react';
 import '../styles/App.css';
-import FunComponent from '../components/函数组件.js';
-import ClassComponent from '../components/class类组件.js';
+import FunComponent from '@/components/函数组件.js';
+import ClassComponent from '@/components/class类组件.js';
+import EventComponent from '@/components/事件处理.js';
+import Hello from '@/components/条件渲染.js';
+import List from '@/components/列表和key.js';
+import Form from '@/components/form.js';
+import Calculator from '@/components/状态提升.js';
 
 function App() {
   const name = 'this is a react app'
@@ -25,6 +30,11 @@ function App() {
       </header>
       <FunComponent name="Lucy"></FunComponent>
       <ClassComponent name="class组件是不是" increment="2"></ClassComponent>
+      <EventComponent></EventComponent>
+      <Hello></Hello>
+      <List></List>
+      <Form></Form>
+      <Calculator></Calculator>
       <footer>
         {element1}
       </footer>
