@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/App.css';
+// import '../styles/App.css';
+import '../styles/App.scss';
 import FunComponent from '@/components/函数组件.js';
 import ClassComponent from '@/components/class类组件.js';
 import EventComponent from '@/components/事件处理.js';
@@ -7,6 +8,9 @@ import Hello from '@/components/条件渲染.js';
 import List from '@/components/列表和key.js';
 import Form from '@/components/form.js';
 import Calculator from '@/components/状态提升.js';
+import WelcomeDialog from '@/components/compose&inherit.js';
+import Context from '@/components/Context.js';
+import Refs from '@/components/Refs转发.js'
 
 function App() {
   const name = 'this is a react app'
@@ -35,6 +39,9 @@ function App() {
       <List></List>
       <Form></Form>
       <Calculator></Calculator>
+      <WelcomeDialog></WelcomeDialog>
+      <Context></Context>
+      <Refs></Refs>
       <footer>
         {element1}
       </footer>
