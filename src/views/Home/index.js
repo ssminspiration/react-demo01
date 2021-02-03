@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hook from '@/components/Hook.js'
 
 export default class Home extends Component {
     constructor(props) {
@@ -11,7 +12,8 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                Home Component
+                <h1>Home Component</h1>
+                <Hook />
             </div>
         )
     }
